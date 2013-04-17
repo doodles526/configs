@@ -1,0 +1,52 @@
+URxvt.termName: rxvt-unicode
+URxvt.imLocale: pl_PL.UTF-8
+   # <- set your own!
+   URxvt.saveLines: 5000
+   URxvt.cursorBlink: true 
+   URxvt.foreground: #bcbcbc
+   URxvt.background: #000000
+   URxvt.cursorColor: #e0e080
+   URxvt.throughColor: #8080f0
+   URxvt.highlightColor: #343434
+   URxvt.transparent: #000000
+   URxvt.inheritPixmap: true
+   URxvt.shading: 20
+   URxvt.tintColor: black 
+   URxvt*font: -misc-fixed-medium-r-normal-*-*-120-*-*-*-*-iso8859-2
+   URxvt*scrollBar:true
+   URxvt*scrollBar_right: true
+   URxvt.geometry: 85x30
+   urxvt.urlLauncher: firefox
+   urxvt.perl-ext-common: selection-autotransform,matcher
+   URxvt.color0: #2E3436
+   URxvt.fading:50 
+## red
+   URxvt.color1: #CC0000
+## green
+   URxvt.color2: #4E9A06
+## yellow
+   URxvt.color3: #C4A000
+## blue
+   URxvt.color4: #3465A4
+## purple
+   URxvt.color5: #75507B
+## cyan
+   URxvt.color6: #06989A
+## white
+   URxvt.color7: #D3D7CF
+## bright-black
+   URxvt.color8: #555753
+## bright-red
+   URxvt.color9: #EF2929
+## bright-green
+   URxvt.color10: #8AE234
+## bright-yellow
+   URxvt.color11: #FCE94F
+## bright-blue
+   URxvt.color12: #729FCF
+## bright-purple
+   URxvt.color13: #AD7FA8
+## bright-cyan
+   URxvt.color14: #34E2E2
+## bright-white
+   URxvt.color15: #EEEEEC  
