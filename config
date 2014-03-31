@@ -18,7 +18,7 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec urxvt 
+bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+Q kill
@@ -146,28 +146,15 @@ bindsym Escape mode "default"
 }
 
 bindsym $mod+r mode "resize"
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
         status_command i3status
 }
 
-
-
-#multi-monitor setup
-#exec_always --no-startup-id xrandr --output LVDS1 --mode 1920x1080
-#exec_always --no-startup-id xrandr --output HDMI1  --mode 1920x1200 --primary --rotate left --left-of LVDS1 
-
 #background
-#exec_always --no-startup-id feh --bg-fill ~/backgrounds/bg1 ~/backgrounds/bg2
+exec_always --no-startup-id feh --bg-fill ~/backgrounds/abstract.jpg
 
 #compton
 exec --no-startup-id compton -D20 -f -i.7 -m.75 --mark-wmwin-focused
-
-#start wifi app on start
-#exec --no-startup-id nm-applet
-
-#start eq on power
-#exec --no-startup-id pulseaudio-equalizer enable
-
-
